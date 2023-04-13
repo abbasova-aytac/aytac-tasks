@@ -1,3 +1,4 @@
+/*
 .logo-lang {
     width: 100%;
     height: 10vh;
@@ -13,7 +14,7 @@
     display: flex;
     align-items: center;
 }
-
+*/
 
 * {
     text-decoration: none;
@@ -53,12 +54,17 @@ a {
     width: 100%;
     height: 70vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .mobil-tetbiqler {
     width: 45%;
     height: 70vh;
+}
+
+.picture-right {
+width: 45%;
+height: 70vh;
 }
 
 .mobil {
@@ -93,6 +99,7 @@ button:hover {
 .what-we-stand {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
 }
 
 .user {
@@ -110,12 +117,16 @@ button:hover {
 }
 
 .user-centred {
-    height: 30vh;
-    margin-bottom: 10vh;
-    margin-top: 10vh;
+    height: 25vh;
     background-color:rgb(231, 231, 231);
     border-style: dashed;
     border-color: rgb(208, 208, 208);
+}
+.user-centred:hover{
+    border-radius: 0 0 20px 0;
+    box-shadow: 10px 10px 19px 0px rgba(167,165,165,0.75);
+-webkit-box-shadow: 10px 10px 19px 0px rgba(167,165,165,0.75);
+-moz-box-shadow: 10px 10px 19px 0px rgba(167,165,165,0.75);
 }
 h2{
     color: darkred;
@@ -130,48 +141,64 @@ color: rgb(0, 0, 0);
 }
 
 .technology {
-    height: 30vh;
-    margin-top: 10vh;
+    height: 25vh;
+    margin-top: 2vh; 
     background-color: rgb(231, 231, 231);
     border-style: dashed;
     border-color: rgb(208, 208, 208);
 }
+.technology:hover{
+    border-radius: 0 0 20px 0;
+    box-shadow: 10px 10px 19px 0px rgba(167,165,165,0.75);
+-webkit-box-shadow: 10px 10px 19px 0px rgba(167,165,165,0.75);
+-moz-box-shadow: 10px 10px 19px 0px rgba(167,165,165,0.75);
+}
 
-/*
 .card-image {
     position: relative;
-    margin-top: 35px;
+    width: 100px;
+    height: 100px
     }
-    .card-image img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        transition: opacity 0.3s ease-in-out;
-    }
-    .image-container img:hover {
+
+    .card-image :hover {
+        cursor: pointer;
         opacity: 0;
-        transition: opacity 0.3s ease-in-out;
-        content: url('hover1.jpg');
-        content: url(hover2.jpg);
-        content: url(hover3.jpg);
-        */
+    }
+
+    .inner{
+        position: absolute;
+   top: 10px;
+    }
+
+   /* .inner :hover{
+        cursor: pointer;
+  opacity: 0;
+    } */
     
 .datadriven {
-    height: 30vh;
-    margin-bottom: 10vh;
-    margin-top: 10vh;
+    height: 25vh;
     background-color:rgb(231, 231, 231);
     border-style: dashed;
     border-color: rgb(208, 208, 208);
 }
+.datadriven:hover{
+    border-radius: 0 0 20px 0;
+    box-shadow: 10px 10px 19px 0px rgba(167,165,165,0.75);
+-webkit-box-shadow: 10px 10px 19px 0px rgba(167,165,165,0.75);
+-moz-box-shadow: 10px 10px 19px 0px rgba(167,165,165,0.75);
+}
 
 .partners{
-    height: 30vh;
-    margin-top: 10vh;
+    height: 25vh;
+    margin-top: 2vh;
     background-color: rgb(231, 231, 231);
     border-style: dashed;
     border-color: rgb(208, 208, 208);
 }    
 
+.partners:hover{
+    border-radius: 0 0 20px 0;
+    box-shadow: 10px 10px 19px 0px rgba(167,165,165,0.75);
+-webkit-box-shadow: 10px 10px 19px 0px rgba(167,165,165,0.75);
+-moz-box-shadow: 10px 10px 19px 0px rgba(167,165,165,0.75);
+}
