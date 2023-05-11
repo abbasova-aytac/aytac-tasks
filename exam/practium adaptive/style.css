@@ -1,0 +1,87 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap'); */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.text_photo {
+    display: flex;
+    justify-self: center;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+}
+
+.text_photo img {
+    width: 20%;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.text-1{
+    width: 60%;
+}
+
+.text-1 h1{
+    max-width: 1200px;
+    font-size: 55px;
+    padding-bottom: 18px;
+    }
+
+.text-1 p {
+     font-size: 24px;
+      line-height: 1.5;
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 20px;
+    }
+
+
+.all_cards {
+    display: flex;
+    justify-self: center;
+    margin-top: 50px;
+    /* margin-left: 50px; */
+    padding-left: 100px;
+    gap: 88px;
+}
+
+.three_items {
+    display: flex;
+    justify-self: center;
+    margin-left: 100px;
+    margin-top: 70px;
+    gap: 88px;
+}
+
+
+@media(max-width:1210px){
+    .text_photo{
+        max-width: 1000px;
+    }
+
+    .all_cards{
+        max-width: 1000px;
+    }
+}
+
+@media(max-width:1040px){
+    .text_photo{
+        max-width: 800px;
+    }
+    .all_cards{
+        max-width: 800px;
+    }
+}
+
+@media(max-width:830px){
+    .head-title{
+        max-width: 600px;
+    }
+    .all_cards{
+        max-width: 600px;
+    }
+}
